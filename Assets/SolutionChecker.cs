@@ -52,7 +52,7 @@ public class SolutionChecker : MonoBehaviour
             //Vector2 maxExtents = pp.GetMaxExtents() + new Vector2(pp.transform.position.x, pp.transform.position.z);
             Vector2 minExtents = pp.GetMinExtents();
             Vector2 maxExtents = pp.GetMaxExtents();
-            if (minExtents.x < 0 || minExtents.y < 0 || maxExtents.x > puzzleSize || maxExtents.y > puzzleSize)
+            if (minExtents.x < 0 || minExtents.y < 0 || maxExtents.x >= puzzleSize || maxExtents.y >= puzzleSize)
             {
                 gameOver = false;
             }
@@ -63,7 +63,13 @@ public class SolutionChecker : MonoBehaviour
             this.gameOver = true;
             GameObject button = GameObject.FindGameObjectWithTag("MainCanvas").transform.GetChild(1).gameObject;
             button.GetComponent<MenuShower>().ButtonShowMenu();
+            GetComponent<SFXManager>().PlaySound(Enums.SFX.WIN);
             Camera.main.GetComponent<CameraController>().EndGame();
         }
+    }
+
+    public int GetPuzzleSize()
+    {
+        return puzzleSize;
     }
 }

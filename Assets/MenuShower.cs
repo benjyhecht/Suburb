@@ -22,7 +22,10 @@ public class MenuShower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            ButtonShowMenu();
+        }
     }
 
     public void ButtonShowMenu()

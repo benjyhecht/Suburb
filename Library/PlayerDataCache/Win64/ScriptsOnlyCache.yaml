@@ -9,7 +9,9 @@ ScriptsOnlyBuild:
     - MouseShower
     - PieceCreator
     - PrefabProperties
+    - SFXManager
     - SolutionChecker
+    - SongManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -107,6 +109,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -118,47 +124,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 1770}
     - Class: 114
-      Script: {instanceID: 2402}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 2462}
+      Script: {instanceID: 2372}
     - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2470}
     - Class: 114
-      Script: {instanceID: 2920}
+      Script: {instanceID: 2806}
     - Class: 114
-      Script: {instanceID: 3148}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3168}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 3450}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 4558}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 4830}
+      Script: {instanceID: 4600}
     - Class: 114
-      Script: {instanceID: 5170}
+      Script: {instanceID: 4924}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 5522}
+      Script: {instanceID: 5248}
     - Class: 114
-      Script: {instanceID: 5598}
+      Script: {instanceID: 5320}
     - Class: 114
-      Script: {instanceID: 5786}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 6206}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 6358}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 6700}
+      Script: {instanceID: 6364}
     - Class: 114
-      Script: {instanceID: 7434}
+      Script: {instanceID: 7066}
     - Class: 114
-      Script: {instanceID: 7862}
+      Script: {instanceID: 7480}
+    - Class: 114
+      Script: {instanceID: 59524}
+    - Class: 114
+      Script: {instanceID: 65782}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1016,6 +1026,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 05ce8a8270634f023b40777575a878e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SongManager
+  - hash:
+      serializedVersion: 2
+      Hash: d7e44387a2c57fb4f329cf27e0c16298
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SFXManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

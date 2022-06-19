@@ -7,4 +7,5 @@ public class Enums
     public enum Environment { HOUSE, SCHOOL, STREET, NA };
     public enum BlockType { CORNER, DEADEND, JUNCTION, STRAIGHT, XROADS, NA };
     public enum Highlights { OFF, ON, GREEN};
+    public enum SFX { PICKUP, PUTDOWN, WIN, NA};
 }

@@ -311,7 +311,9 @@
 "Assets/PieceMover.cs"
 "Assets/PieceProperties.cs"
 "Assets/PrefabProperties.cs"
+"Assets/SFXManager.cs"
 "Assets/SolutionChecker.cs"
+"Assets/SongManager.cs"
 -langversion:9.0
 
 /deterministic

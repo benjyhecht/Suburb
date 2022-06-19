@@ -12,11 +12,19 @@ public class PieceMover : MonoBehaviour
     private Vector3 startingPosition;
     private int originalLayer;
     private SolutionChecker sc;
+    private PieceProperties pieceProperties;
+    private SFXManager sfxManager;
+    private Vector2 minExtents;
+    private Vector2 maxExtents;
+    private int puzzleSize;
+    bool green = false;
 
     private void Awake()
     {
         mouseShower = GameObject.FindGameObjectWithTag("GameController").GetComponent<MouseShower>();
         sc = mouseShower.gameObject.GetComponent<SolutionChecker>();
+        pieceProperties = GetComponent<PieceProperties>();
+        sfxManager = mouseShower.GetComponent<SFXManager>();
     }
 
     private void Update()
@@ -59,6 +67,7 @@ public class PieceMover : MonoBehaviour
         startingPosition = transform.position;
         mZCoord = Camera.main.WorldToScreenPoint(transform.position).z;
         mOffset = gameObject.transform.position - mouseShower.GetMousePosition() + new Vector3(0, .1f, 0);
+        sfxManager.PlaySound(Enums.SFX.PICKUP);
     }
 
     private Vector3 GetMouseWorldPosition()
@@ -75,8 +84,10 @@ public class PieceMover : MonoBehaviour
 
     public void StopMoving()
     {
+        green = false;
         if (SafeToLand())
         {
+            pieceProperties.LightenPiece(Enums.Highlights.ON);
             Vector3 exactPosition = transform.position;
             float roundX = Mathf.RoundToInt(exactPosition.x);
             float roundZ = Mathf.RoundToInt(exactPosition.z);
@@ -87,6 +98,7 @@ public class PieceMover : MonoBehaviour
         {
             transform.position = startingPosition;
         }
+        sfxManager.PlaySound(Enums.SFX.PUTDOWN);
     }
 
     public bool SafeToLand()
