@@ -5,16 +5,21 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
-    [SerializeField] AudioClip pickUpPiece;
-    [SerializeField] AudioClip putDownPiece;
-    [SerializeField] AudioClip victoryFanfare;
+    [SerializeField] AudioClip[] pickUpPieces;
+    [SerializeField] AudioClip[] putDownPieces;
+    [SerializeField] AudioClip[] victoryFanfares;
 
     AudioSource audioSource;
+    float minVolume = 0f;
+    float maxVolume = .5f;
+    float currentVolume = .25f;
 
-    // Start is called before the first frame update
-    void Start()
+    DontDestroy dd;
+
+    private void Awake()
     {
-        //audioSource.GetComponent<AudioSource>();
+        dd = GameObject.FindGameObjectWithTag("DontDestroy").GetComponent<DontDestroy>();
+        currentVolume = dd.GetSFXVolume();
     }
 
     // Update is called once per frame
@@ -25,6 +30,7 @@ public class SFXManager : MonoBehaviour
             try
             {
                 audioSource = GetComponent<AudioSource>();
+                audioSource.volume = currentVolume;
             }
             catch (Exception e)
             {
@@ -35,21 +41,39 @@ public class SFXManager : MonoBehaviour
 
     public void PlaySound(Enums.SFX soundIn)
     {
+        AudioClip[] usedClips = null;
         switch (soundIn)
         {
             case Enums.SFX.PICKUP:
-                audioSource.PlayOneShot(pickUpPiece);
+                usedClips = pickUpPieces;
                 break;
             case Enums.SFX.PUTDOWN:
-                audioSource.PlayOneShot(putDownPiece);
+                usedClips = putDownPieces;
                 break;
             case Enums.SFX.WIN:
-                audioSource.PlayOneShot(victoryFanfare);
+                usedClips = victoryFanfares;
                 break;
             default:
                 break;
         }
+        if (usedClips != null)
+        {
+            foreach (AudioClip audioClip in usedClips)
+            {
+                audioSource.PlayOneShot(audioClip);
+            }
+        }
     }
 
+    public float GetVolume()
+    {
+        return currentVolume;
+    }
 
+    public void SetVolume(float volume)
+    {
+        currentVolume = Mathf.Clamp(volume, minVolume, maxVolume);
+        audioSource.volume = currentVolume;
+        dd.SetSFXVolume(currentVolume);
+    }
 }

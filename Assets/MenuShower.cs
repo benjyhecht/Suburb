@@ -13,11 +13,6 @@ public class MenuShower : MonoBehaviour
         sc = GameObject.FindGameObjectWithTag("GameController").GetComponent<SolutionChecker>();
         menu = transform.parent.GetChild(0).gameObject;
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

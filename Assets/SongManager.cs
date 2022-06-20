@@ -10,6 +10,9 @@ public class SongManager : MonoBehaviour
     DontDestroy dd;
 
     AudioClip currentClip;
+    float minVolume = 0f;
+    float maxVolume = .5f;
+    float currentVolume = .25f;
 
 
     // Start is called before the first frame update
@@ -17,7 +20,9 @@ public class SongManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         dd = GetComponent<DontDestroy>();
+        currentVolume = dd.GetSongVolume();
         audioSource.clip = dd.GetCurrentClip();
+        audioSource.volume = currentVolume;
     }
 
     private void Update()
@@ -43,5 +48,17 @@ public class SongManager : MonoBehaviour
         audioSource.clip = currentClip;
         dd.SetCurrentClip(currentClip);
         audioSource.Play();
+    }
+
+    public float GetVolume()
+    {
+        return currentVolume;
+    }
+
+    public void SetVolume(float volume)
+    {
+        currentVolume = Mathf.Clamp(volume, minVolume, maxVolume);
+        audioSource.volume = currentVolume;
+        dd.SetSongVolume(currentVolume);
     }
 }

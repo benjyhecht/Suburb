@@ -10,6 +10,9 @@ public class DontDestroy : MonoBehaviour
     bool playing = false;
     AudioClip currentAudioClip;
 
+    float songVolume = .25f;
+    float sfxVolume = .25f;
+
     private void Awake()
     {
         GameObject[] allDDs = GameObject.FindGameObjectsWithTag("DontDestroy");
@@ -59,5 +62,25 @@ public class DontDestroy : MonoBehaviour
     public void SetCurrentClip(AudioClip currentAudioClip)
     {
         this.currentAudioClip = currentAudioClip;
+    }
+
+    public float GetSongVolume()
+    {
+        return songVolume;
+    }
+
+    public void SetSongVolume(float volume)
+    {
+        songVolume = volume;
+    }
+
+    public float GetSFXVolume()
+    {
+        return sfxVolume;
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        sfxVolume = volume;
     }
 }

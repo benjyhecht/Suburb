@@ -305,6 +305,7 @@
 "Assets/CameraController.cs"
 "Assets/DontDestroy.cs"
 "Assets/Enums.cs"
+"Assets/MenuMessageManager.cs"
 "Assets/MenuShower.cs"
 "Assets/MouseShower.cs"
 "Assets/PieceCreator.cs"
