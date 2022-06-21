@@ -15,7 +15,7 @@ C:/Users/Benjy/Documents/Unity/Suburb
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52873
+57998
 Successfully changed project path to: C:/Users/Benjy/Documents/Unity/Suburb
 C:/Users/Benjy/Documents/Unity/Suburb
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Benjy/Documents/Unity/Suburb
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 62.54 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 73.18 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/Resources/UnitySubsystems
@@ -63,52 +63,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008858 seconds.
+Registered in 0.008527 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.97 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 64.34 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.501 seconds
+- Completed reload, in  0.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (502ms)
+	ReloadAssembly (495ms)
 		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (353ms)
+		EndReloadAssembly (352ms)
 			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (214ms)
+			SetupLoadedEditorAssemblies (213ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (64ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003700 seconds.
-Android Extension - Scanning For ADB Devices 624 ms
+Registered in 0.004045 seconds.
+Android Extension - Scanning For ADB Devices 646 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -117,33 +117,33 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
+- Completed reload, in  0.749 seconds
 Domain Reload Profiling:
-	ReloadAssembly (736ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (558ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (260ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (159ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (163ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3252 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (113.7 KB). Loaded Objects now: 3747.
-Memory consumption went from 135.2 MB to 135.1 MB.
-Total: 2.396300 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.070700 ms MarkObjects: 1.945400 ms  DeleteObjects: 0.165200 ms)
+Unloading 3254 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (113.8 KB). Loaded Objects now: 3749.
+Memory consumption went from 135.3 MB to 135.2 MB.
+Total: 2.564500 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.110400 ms  DeleteObjects: 0.113100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,1248 +171,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 25029.032863 seconds.
-  path: Assets/Music
-  artifactKey: Guid(ff401bd01710ed54faeda216c28f67c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music using Guid(ff401bd01710ed54faeda216c28f67c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1831172984de590f80e404993feb8e') in 0.008968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2209.060520 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #1 - Acoustic Version (Looped).mp3
-  artifactKey: Guid(182ce944fe6a3154abf04c38bf9f6253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #1 - Acoustic Version (Looped).mp3 using Guid(182ce944fe6a3154abf04c38bf9f6253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129c4ca327ef622f0f70e30814ff8f8f') in 0.178854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #4 - Acoustic Version.mp3
-  artifactKey: Guid(c28e1cf62b157d14697b54dcef14e78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #4 - Acoustic Version.mp3 using Guid(c28e1cf62b157d14697b54dcef14e78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6623bb26755f36e4430558ae51f1ff20') in 0.012108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #5 - Acoustic Version (Looped).mp3
-  artifactKey: Guid(c247edea50c5d5d4e8383eb379dc8f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #5 - Acoustic Version (Looped).mp3 using Guid(c247edea50c5d5d4e8383eb379dc8f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a349a2c29653414d2891a9a577b0f3f7') in 0.012001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #2 (Looped).mp3
-  artifactKey: Guid(30c50caa185d0af49b8f44cd706b4c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #2 (Looped).mp3 using Guid(30c50caa185d0af49b8f44cd706b4c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1e2fe6623c1f5a0a5cad25629ba643') in 0.009710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #4.mp3
-  artifactKey: Guid(6e19f0f447200844185d8adbcc25044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #4.mp3 using Guid(6e19f0f447200844185d8adbcc25044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd761996418db76cf1600b4a190ae4db5') in 0.012251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #2.mp3
-  artifactKey: Guid(81b6fca84cad2ac4daf2901cee987366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #2.mp3 using Guid(81b6fca84cad2ac4daf2901cee987366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cf669786e13e3ffb36f4713a3bc188') in 0.010431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #4 (Looped).mp3
-  artifactKey: Guid(52d8e629232928e41bfd58c5c355f315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #4 (Looped).mp3 using Guid(52d8e629232928e41bfd58c5c355f315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e2b650ab3e9f8ad31043ca88e6d35f') in 0.011799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #5 (Looped).mp3
-  artifactKey: Guid(ac3a9f5de296d534fa01318ded38462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #5 (Looped).mp3 using Guid(ac3a9f5de296d534fa01318ded38462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdf55c09ea635bacbb2086d587e98a3') in 0.010921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #5 - Acoustic Version.mp3
-  artifactKey: Guid(21ccb9b506af43441a4d160067679a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #5 - Acoustic Version.mp3 using Guid(21ccb9b506af43441a4d160067679a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a166b6fb9aae44c1608ef89d078b48') in 0.010216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #4 - Acoustic Version (Looped).mp3
-  artifactKey: Guid(0e8683cb8eb2fec49b32ed2280da0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #4 - Acoustic Version (Looped).mp3 using Guid(0e8683cb8eb2fec49b32ed2280da0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9b5aa83c3054c6a20b2b6b7e46771d') in 0.010855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Music/casualbackgroundmusicpack/Casual Theme #1 - Acoustic Version.mp3
-  artifactKey: Guid(9a19e2f3207eacf4bba334b8a5de8065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/casualbackgroundmusicpack/Casual Theme #1 - Acoustic Version.mp3 using Guid(9a19e2f3207eacf4bba334b8a5de8065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03d9a031bd226088dc7e616b653e61') in 0.010302 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004006 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
-Domain Reload Profiling:
-	ReloadAssembly (814ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (613ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (277ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.61 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.4 KB). Loaded Objects now: 3758.
-Memory consumption went from 143.9 MB to 143.8 MB.
-Total: 2.389400 ms (FindLiveObjects: 0.240900 ms CreateObjectMapping: 0.131200 ms MarkObjects: 1.935400 ms  DeleteObjects: 0.081000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004505 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
-Domain Reload Profiling:
-	ReloadAssembly (829ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (640ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (301ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.18 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.3 KB). Loaded Objects now: 3761.
-Memory consumption went from 143.9 MB to 143.8 MB.
-Total: 2.215700 ms (FindLiveObjects: 0.190400 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.871400 ms  DeleteObjects: 0.091100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 75.032986 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_02a.wav
-  artifactKey: Guid(e8b943ec5b5907547b0fa3c57835d67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_02a.wav using Guid(e8b943ec5b5907547b0fa3c57835d67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4585549404a1abcf7d8f5fc6b5f521e') in 0.075732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_04a.wav
-  artifactKey: Guid(b9f7964b33dbf3b47bf4047418ab9e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_04a.wav using Guid(b9f7964b33dbf3b47bf4047418ab9e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a317adc5a66e797bb995f5e768e4882') in 0.013149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_03a.wav
-  artifactKey: Guid(8926d28be9b349f44ab10c8b9f3dde92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_03a.wav using Guid(8926d28be9b349f44ab10c8b9f3dde92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6633fd798a2800c4396be63518c1b92a') in 0.011476 seconds 
+  Time since last request: 100281.310494 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Plasma Cutting (Side Movement).wav
+  artifactKey: Guid(3bf8264cc79f52c4bb267dfabf65e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Plasma Cutting (Side Movement).wav using Guid(3bf8264cc79f52c4bb267dfabf65e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba06de2b3cdc25c2803b218ff936eba') in 0.097436 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_04a.wav
-  artifactKey: Guid(7a73973938f444c4e8177bdcb5ae0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_04a.wav using Guid(7a73973938f444c4e8177bdcb5ae0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b698f60d18489182a024a9ff5eca8b61') in 0.012217 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Mini Rotary Drill.wav
+  artifactKey: Guid(45356687d66eb614483e2add69348e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Mini Rotary Drill.wav using Guid(45356687d66eb614483e2add69348e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de61c91408600071ae3618c4e674b9f') in 0.013237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Organ_100_B_minor.wav
-  artifactKey: Guid(3c307a9b5427f96489ab9ca6ffb1a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Organ_100_B_minor.wav using Guid(3c307a9b5427f96489ab9ca6ffb1a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491e5b5ed130a0a59f48a84a8665c9b7') in 0.015440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_04a.wav
-  artifactKey: Guid(faf3acefc48ff6c47921bf93a5084679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_04a.wav using Guid(faf3acefc48ff6c47921bf93a5084679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d294964c8eb356fd852c53bfea129a') in 0.014265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_17a.wav
-  artifactKey: Guid(bd393a80120356242ac1c68ae41537fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_17a.wav using Guid(bd393a80120356242ac1c68ae41537fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb8b53900108fb9f63be5b9655b14fa') in 0.011692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_03a.wav
-  artifactKey: Guid(7961768a01f345144988100b57f3ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_03a.wav using Guid(7961768a01f345144988100b57f3ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc04315397606e7ae7e56bcc4e541a5b') in 0.014148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_14a.wav
-  artifactKey: Guid(bc6944e52bc43b948a431ab3de93a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_14a.wav using Guid(bc6944e52bc43b948a431ab3de93a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9424ae67ebe62e795d865453e056c7') in 0.010496 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Mild Steel Tube.wav
+  artifactKey: Guid(454443887a5e5924fac3abb69ca1d1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Mild Steel Tube.wav using Guid(454443887a5e5924fac3abb69ca1d1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb53f696ad14200edc4ea47ac047d8b') in 0.009151 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_07a.wav
-  artifactKey: Guid(b75960f879a9e234e82052a87f514d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_07a.wav using Guid(b75960f879a9e234e82052a87f514d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9119ed81cca2cba0ae343fbaa078bdf3') in 0.009682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_01a.wav
-  artifactKey: Guid(7263a068a984cd54ca51c227c2d4a280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_01a.wav using Guid(7263a068a984cd54ca51c227c2d4a280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f842c1156ea4bfca7267859e191ea2') in 0.009905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_02a.wav
-  artifactKey: Guid(963e895f9e92767418b5f3e22eb79cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_02a.wav using Guid(963e895f9e92767418b5f3e22eb79cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08abf5f099f6e3d758464bc36e2386ce') in 0.010896 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Gas Tank 1.wav
+  artifactKey: Guid(e5e045acd70a03e4db4e9bd7b239f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Gas Tank 1.wav using Guid(e5e045acd70a03e4db4e9bd7b239f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efd5b615dea455b811712f05cd65e5e') in 0.009271 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_08a.wav
-  artifactKey: Guid(b7ff7c82c0b8c0b44aa964bea7fdb678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_08a.wav using Guid(b7ff7c82c0b8c0b44aa964bea7fdb678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4310051bdffa9b58bb40691556b6a643') in 0.010243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_14a.wav
-  artifactKey: Guid(e8c1a42e605d6df4abaeb238aa13f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_14a.wav using Guid(e8c1a42e605d6df4abaeb238aa13f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c5e495b6811761a5b07d5d57521022') in 0.010175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_03a.wav
-  artifactKey: Guid(31e02494a6373074da59e2e32c31e1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_03a.wav using Guid(31e02494a6373074da59e2e32c31e1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6346470dd03bbf6d930ed42170ee91c5') in 0.009105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_20a.wav
-  artifactKey: Guid(37870ac97c2ebfd47b1411257af93d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_20a.wav using Guid(37870ac97c2ebfd47b1411257af93d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab732a350431e2b224442e23a5b96405') in 0.009340 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Flexometer.wav
+  artifactKey: Guid(da90b9b0ec7839641a57fd489283b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Flexometer.wav using Guid(da90b9b0ec7839641a57fd489283b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f07ed6f18ce6097555eddbaf73f583c') in 0.008721 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_09a.wav
-  artifactKey: Guid(143d7e2931d3477438aadfca15622117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_09a.wav using Guid(143d7e2931d3477438aadfca15622117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab59031e2c00e4e93143673008e1d512') in 0.010731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_23a.wav
-  artifactKey: Guid(f48cc7ef5ece9f443bbd088b2f3bc850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_23a.wav using Guid(f48cc7ef5ece9f443bbd088b2f3bc850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd396bcdc17fa457180c7ee3ed9687ed') in 0.010433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_05a.wav
-  artifactKey: Guid(6f618c4c7f506a541b420a06c7497c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_05a.wav using Guid(6f618c4c7f506a541b420a06c7497c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faaf50dbaa8833f485cce4d49e4512d') in 0.012315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_13a.wav
-  artifactKey: Guid(6d9a062b018959d4ba3b8ad9dbe22d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_13a.wav using Guid(6d9a062b018959d4ba3b8ad9dbe22d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd231433008854b7d08009fef54fd3b0') in 0.009344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_11a.wav
-  artifactKey: Guid(2a2b0a5dd0730524284f916b5a4520a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_11a.wav using Guid(2a2b0a5dd0730524284f916b5a4520a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84473777c325371da0808268acb23b09') in 0.009308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_06a.wav
-  artifactKey: Guid(a68d15141d689ef42aae0ad6bfc69346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_06a.wav using Guid(a68d15141d689ef42aae0ad6bfc69346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9206bf5daebc6a40d8ae6e59b3668919') in 0.011648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_21a.wav
-  artifactKey: Guid(e6a8a648f5a07f84e8983f1962abecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_21a.wav using Guid(e6a8a648f5a07f84e8983f1962abecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b546da0c3c229d84e84f217cc0e5f415') in 0.011319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_19a.wav
-  artifactKey: Guid(0ec58d2ef09e536468c71b1eda347362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_19a.wav using Guid(0ec58d2ef09e536468c71b1eda347362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6d75b3f9713b34435aa3c2c152ae58') in 0.011379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_02a.wav
-  artifactKey: Guid(d90ae9cdf585e7246aa9ad99cb8b975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_02a.wav using Guid(d90ae9cdf585e7246aa9ad99cb8b975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144d2e5ce45ee5cd4f15f206635ca8a9') in 0.010478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_22a.wav
-  artifactKey: Guid(5202d5758929b2f4fb7cf9f9f4b3f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_22a.wav using Guid(5202d5758929b2f4fb7cf9f9f4b3f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e499195bf147ed1c1b017848dcdc5855') in 0.009902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_24a.wav
-  artifactKey: Guid(e0ce6c050b666704ba1f257178a89bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_24a.wav using Guid(e0ce6c050b666704ba1f257178a89bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc3436b39117aaf1a20ef4eb08e88d1') in 0.011252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_01a.wav
-  artifactKey: Guid(1d629e252fcc93e44b4a8717c77c7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_01a.wav using Guid(1d629e252fcc93e44b4a8717c77c7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52aaa5229d906475e466ed20312d64e0') in 0.009531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_12a.wav
-  artifactKey: Guid(45e6e02872b711f459098db264b04eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_12a.wav using Guid(45e6e02872b711f459098db264b04eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7c95642db9f3261641ad022a722a3c') in 0.009186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_05a.wav
-  artifactKey: Guid(17c3aebda2ab24a4e89a4977629b71da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_05a.wav using Guid(17c3aebda2ab24a4e89a4977629b71da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7de7ae7ebde65ac9371f6b04f5ba455') in 0.010756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_06a.wav
-  artifactKey: Guid(e25c454ab779d364bbb5243ceefc1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Piano_100_B_minor_06a.wav using Guid(e25c454ab779d364bbb5243ceefc1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3548eda154f06eafa1e7a197dc69d7d8') in 0.011149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_01a.wav
-  artifactKey: Guid(abcd58de475720c4ab5519b21da82968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_01a.wav using Guid(abcd58de475720c4ab5519b21da82968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ce18d52e3cfa09efbca884de975d69') in 0.009992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_05a.wav
-  artifactKey: Guid(7e2d2d2479741c746942130823e26b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_05a.wav using Guid(7e2d2d2479741c746942130823e26b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa0b29e20e92ec16fc2cb0ce5b71437') in 0.011575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_12a.wav
-  artifactKey: Guid(80391103a296b9a4fbded92652454dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_12a.wav using Guid(80391103a296b9a4fbded92652454dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53009ece77f4d1bd67018147f7db8748') in 0.009934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_07a.wav
-  artifactKey: Guid(0e3e03cc8dad2f34586342801d54a3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Drums_100_B_minor_07a.wav using Guid(0e3e03cc8dad2f34586342801d54a3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd742a53601e099e8eac1cbe27caf9ee4') in 0.010146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_09a.wav
-  artifactKey: Guid(1731b28f181ae4849820b0263df298a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Bass_100_B_minor_09a.wav using Guid(1731b28f181ae4849820b0263df298a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d779652758f8fc3ed4c579d231b4c2e') in 0.014072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_02a.wav
-  artifactKey: Guid(8be34a06596ab4141a50cae40b045f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/100 B Minor 1/SL_Brazilian_Rhodes_100_B_minor_02a.wav using Guid(8be34a06596ab4141a50cae40b045f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee0dc3c481643341deebe927a40f8a3') in 0.011733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.949715 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Agogo_High_02.wav
-  artifactKey: Guid(81aafe5648b816442b7047c21c9b348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Agogo_High_02.wav using Guid(81aafe5648b816442b7047c21c9b348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6edb421691fd7ea39fbecb44d67a30e') in 0.009489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_High_05.wav
-  artifactKey: Guid(c407917812697e54cba40b2eba6a0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_High_05.wav using Guid(c407917812697e54cba40b2eba6a0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180f1436e09055347c2117f29ceb696a') in 0.009724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Hi_04.wav
-  artifactKey: Guid(549594730cfb98041a684df567a55b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Hi_04.wav using Guid(549594730cfb98041a684df567a55b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb0c80a1ee5ba8bed10a0535ccea271') in 0.010819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_High_01.wav
-  artifactKey: Guid(f1bec39c9c8d88f4b89a0afd2f37531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_High_01.wav using Guid(f1bec39c9c8d88f4b89a0afd2f37531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e933dc1fb2c87ef9f4b9b00e0d3237') in 0.009111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Low_05.wav
-  artifactKey: Guid(56bfba86a50fde543965a8b28e01d2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Low_05.wav using Guid(56bfba86a50fde543965a8b28e01d2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6f1fe958d0b18aede545571f5cf055') in 0.010307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_High_Hat_Closed_02.wav
-  artifactKey: Guid(38bfd0b77a8c69b4ab90607fcf07c68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_High_Hat_Closed_02.wav using Guid(38bfd0b77a8c69b4ab90607fcf07c68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48724ff844c88eefe3d951534579ddd0') in 0.010875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Hi_Hat_Clutch_03.wav
-  artifactKey: Guid(cfa41ed629e19684aa4e8c4cf438f159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Hi_Hat_Clutch_03.wav using Guid(cfa41ed629e19684aa4e8c4cf438f159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaf41f1f030fe4530b3dc8e340c8e59') in 0.010367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_03.wav
-  artifactKey: Guid(75e5b05545eeaad4ba1a322b7fb022f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_03.wav using Guid(75e5b05545eeaad4ba1a322b7fb022f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f71a748a5d78dd79562439c703b6b9') in 0.010855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_02.wav
-  artifactKey: Guid(e13509863ce3f4b4d9de7c3da1570362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_02.wav using Guid(e13509863ce3f4b4d9de7c3da1570362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f8a4892b0911a77a7f5d5124abd3e5') in 0.009541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_02.wav
-  artifactKey: Guid(2aa5bdf68af676f4ca33ad6ab371c8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_02.wav using Guid(2aa5bdf68af676f4ca33ad6ab371c8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451a8538d8b81712e4dadcf10c3fdcde') in 0.009890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_04.wav
-  artifactKey: Guid(af7610e8ec32f78488b5a52a729837e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_04.wav using Guid(af7610e8ec32f78488b5a52a729837e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9399fb537fc636d5e1050eac73c176a0') in 0.010102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_06.wav
-  artifactKey: Guid(e9cc4aafae7dad64abf3c90a005b0278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_06.wav using Guid(e9cc4aafae7dad64abf3c90a005b0278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19f33c029b4f0e339e23b0a751b1a82') in 0.010091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Crash_06.wav
-  artifactKey: Guid(d3e975b9bbbefab40a54c013f2333cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Crash_06.wav using Guid(d3e975b9bbbefab40a54c013f2333cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a6a272aa47fab1b8df1d951d0bc698') in 0.010447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_High_Hat_Closed_09.wav
-  artifactKey: Guid(449b4abd60148484c9609e581446fbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_High_Hat_Closed_09.wav using Guid(449b4abd60148484c9609e581446fbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bdaee6040069cf23f1810fb79836d8') in 0.011161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_High_Hat_Closed_10.wav
-  artifactKey: Guid(6ae82a2c269231948ab51ecc72b9b843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_High_Hat_Closed_10.wav using Guid(6ae82a2c269231948ab51ecc72b9b843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06224a4ae15a2c6a74e7f3e32b5bb8d') in 0.010181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Low_01.wav
-  artifactKey: Guid(dcc6386a82cf0054ba953fa87689ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Low_01.wav using Guid(dcc6386a82cf0054ba953fa87689ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a1b8b3c550d2166339e6277532a1f7') in 0.010003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Low_03.wav
-  artifactKey: Guid(31236bf798b632448ab58007ae0a1ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Bongo_Low_03.wav using Guid(31236bf798b632448ab58007ae0a1ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93143c0b2a0d385e201f5c3f0fff5a5c') in 0.010550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_05.wav
-  artifactKey: Guid(39f88ce1fb1980745aaad47643b034ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_05.wav using Guid(39f88ce1fb1980745aaad47643b034ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e38ee589961d41290c5350749730648') in 0.009272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Cuica_Low_02.wav
-  artifactKey: Guid(64358fc03e2c1b04a977b21c972f8c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Cuica_Low_02.wav using Guid(64358fc03e2c1b04a977b21c972f8c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59a067089c13f8766760381daa43b3f') in 0.010088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Crash_02.wav
-  artifactKey: Guid(91418cce140622240811dd17557df621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Crash_02.wav using Guid(91418cce140622240811dd17557df621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4548f029439984a1ead72056babeef02') in 0.009960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Apito_03.wav
-  artifactKey: Guid(c61b64075deab6e4d8488ac291542744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Apito_03.wav using Guid(c61b64075deab6e4d8488ac291542744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d6eb3168390cca507884cd3b62b6bb') in 0.011822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_05.wav
-  artifactKey: Guid(425239bf4e318264aa42ffe9b2569f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Blade_05.wav using Guid(425239bf4e318264aa42ffe9b2569f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285953bdf76463f5dac903ae4aefa46d') in 0.010625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_09.wav
-  artifactKey: Guid(c2800ce50b8551b4bbba9c348267186c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Closed_Hat_09.wav using Guid(c2800ce50b8551b4bbba9c348267186c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcf03b09a83ea7ae36dd8073ae248ba') in 0.010155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Crash_01.wav
-  artifactKey: Guid(24dda8c20c728c6469c23aa9ebffbcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Crash_01.wav using Guid(24dda8c20c728c6469c23aa9ebffbcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cbe130f938da3710f768bd3390e216') in 0.009918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Hi_Hat_Clutch_02.wav
-  artifactKey: Guid(75c980ab96bc2a54cbe935cd2ad48d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Hi_Hat_Clutch_02.wav using Guid(75c980ab96bc2a54cbe935cd2ad48d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf9decb6e9a359674434f88d426ec77') in 0.010504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Hi_Hat_Clutch_01.wav
-  artifactKey: Guid(ee143a6faf5cbc44586801baedad17f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Drum One-shots/SL_Hi_Hat_Clutch_01.wav using Guid(ee143a6faf5cbc44586801baedad17f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82860bb8599ffb22efede99e1755ffd') in 0.009816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.412269 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Percussion 100 BPM Loops/SL_Brazilian_Lounge_Repenique_100.wav
-  artifactKey: Guid(b1d5c87308ecf86408f6653e698b131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Percussion 100 BPM Loops/SL_Brazilian_Lounge_Repenique_100.wav using Guid(b1d5c87308ecf86408f6653e698b131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e882e960d8fe9ef00e94e5244447d537') in 0.010751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Percussion 100 BPM Loops/SL_Brazilian_Lounge_Xequebalde_100.wav
-  artifactKey: Guid(43279713c2204fc4f87cfc4c989eb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Percussion 100 BPM Loops/SL_Brazilian_Lounge_Xequebalde_100.wav using Guid(43279713c2204fc4f87cfc4c989eb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a07f5c1433bbcf7a948d64f131709c') in 0.009854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Percussion 100 BPM Loops/SL_Brazilian_Lounge_Tambourine_100.wav
-  artifactKey: Guid(eabc21a721cfb7345abecc665dc65e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Brazillian Lounge WAV/Percussion 100 BPM Loops/SL_Brazilian_Lounge_Tambourine_100.wav using Guid(eabc21a721cfb7345abecc665dc65e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433deec41b0b29673c9c4c6717a9350a') in 0.013934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.599523 seconds.
-  path: Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 160 E Kicker/Sl_Kicker_Drums_160_BPM.wav
-  artifactKey: Guid(7d0739b8eb28f8f4785f2378e1282ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 160 E Kicker/Sl_Kicker_Drums_160_BPM.wav using Guid(7d0739b8eb28f8f4785f2378e1282ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2e3a1baf57bb23f597f35db7fa9443') in 0.010315 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Hydraulic Sheet Bending (Up).wav
+  artifactKey: Guid(b0ffbc954d3474945b3515d8d1ff1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Hydraulic Sheet Bending (Up).wav using Guid(b0ffbc954d3474945b3515d8d1ff1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b463d7a39eb08d51a07a6454147c6a') in 0.009764 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 160 E Kicker/Sl_Kicker_Electric_Guitar_Distorted_E_160_BPM.wav
-  artifactKey: Guid(3f34f5e6fd470b14aac5e820a7a116a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 160 E Kicker/Sl_Kicker_Electric_Guitar_Distorted_E_160_BPM.wav using Guid(3f34f5e6fd470b14aac5e820a7a116a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb791a801a547e85dc5cc7ed6625bfe6') in 0.010600 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Wire Mesh 1.wav
+  artifactKey: Guid(b9b1c5bc2cdd5ed48a094ad7912b816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Wire Mesh 1.wav using Guid(b9b1c5bc2cdd5ed48a094ad7912b816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4837017a503b395b7de54c4035e28e') in 0.009963 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.051227 seconds.
-  path: Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 100 D Where's The Party/SL_Party_Drums_100_BPM.wav
-  artifactKey: Guid(5a99e65687fe4d74c83421df00011913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 100 D Where's The Party/SL_Party_Drums_100_BPM.wav using Guid(5a99e65687fe4d74c83421df00011913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1639c3a61effa2009784bc1b3f37f9') in 0.011565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 100 D Where's The Party/SL_Party_Electric_Guitar_Clean_Picked_D_100_BPM.wav
-  artifactKey: Guid(69c34b25bd35ca7439a9982d07d3c3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 100 D Where's The Party/SL_Party_Electric_Guitar_Clean_Picked_D_100_BPM.wav using Guid(69c34b25bd35ca7439a9982d07d3c3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51542e4304f58f523ada3098405c30a') in 0.011074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.630241 seconds.
-  path: Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 090 C Rock On/SL_Rock_On_Drums_BPM_90_090_BPM.wav
-  artifactKey: Guid(a07ee7257993844408e4959c17b093a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 090 C Rock On/SL_Rock_On_Drums_BPM_90_090_BPM.wav using Guid(a07ee7257993844408e4959c17b093a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be4bcd1db319856a08722b8daa1719b') in 0.010387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 090 C Rock On/SL_Rock_On_Electric_Guitar_3_C_090_BPM.wav
-  artifactKey: Guid(1397a1f9edbeb0b4ca1d6591801fabeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Carlos Villalobos Guitar Styles/Heavy Soul/SL 090 C Rock On/SL_Rock_On_Electric_Guitar_3_C_090_BPM.wav using Guid(1397a1f9edbeb0b4ca1d6591801fabeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf71a27f1d94b6d1524f029ac172088') in 0.010520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.499761 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_AlienLifecycle.wav
-  artifactKey: Guid(d2fbaf3ee62ba2c4bad665abdfed3b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_AlienLifecycle.wav using Guid(d2fbaf3ee62ba2c4bad665abdfed3b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5804d857c98a62aa2f7f3ec32f7bb4a9') in 0.010711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_PressurizedPump.wav
-  artifactKey: Guid(ac10d34b27f1dd945ab44ab2ee75061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_PressurizedPump.wav using Guid(ac10d34b27f1dd945ab44ab2ee75061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4321b32c73ffee499da8804dd08b21e7') in 0.009955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_DimensionalSubway.wav
-  artifactKey: Guid(6390692d745f40a40827cbae22344677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_DimensionalSubway.wav using Guid(6390692d745f40a40827cbae22344677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c488da29ee88ae69caed99115ac8cc') in 0.011487 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Iron Square Tube 3.wav
+  artifactKey: Guid(cc6be7a9c53e37f41981963d7df9495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Iron Square Tube 3.wav using Guid(cc6be7a9c53e37f41981963d7df9495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c84323d7baccfb105130f0fa849e45') in 0.008837 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_BirdsInABlackhole.wav
-  artifactKey: Guid(c4a864ec15a35e64c9ca67e3dfcfc916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_BirdsInABlackhole.wav using Guid(c4a864ec15a35e64c9ca67e3dfcfc916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcee8f6d450aa7fb82a231afa705217a') in 0.009569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_GasGiant.wav
-  artifactKey: Guid(cab3bf6b571477a43bdb00436f1d747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_GasGiant.wav using Guid(cab3bf6b571477a43bdb00436f1d747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd378fa0d4596d8c6f153f32ec1495af7') in 0.008900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_GalaxyCrystals.wav
-  artifactKey: Guid(88a2727374d9f654cb828ee53aef7225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_GalaxyCrystals.wav using Guid(88a2727374d9f654cb828ee53aef7225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2451aaa3badb73682f62b9ff28051012') in 0.010148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_MartianTribe.wav
-  artifactKey: Guid(7be3be5cd3b409c48b58b1792b99bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_MartianTribe.wav using Guid(7be3be5cd3b409c48b58b1792b99bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f74d3dff00bd290075fd5c93a5dc3b') in 0.009938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_SolarMagnet.wav
-  artifactKey: Guid(1df05f9536e5bc743a98d99ac9c955b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_SolarMagnet.wav using Guid(1df05f9536e5bc743a98d99ac9c955b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093c8da7dcaef401b1650111b8e5b30f') in 0.010697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_IcePlanet.wav
-  artifactKey: Guid(e28713ff70307ec4eaaa6d5e92bbe8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_IcePlanet.wav using Guid(e28713ff70307ec4eaaa6d5e92bbe8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b117f4ada6a30c78b268b8d161c78a') in 0.009444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_LeakingSuit.wav
-  artifactKey: Guid(8f534bc6f876ed641844136115bc2606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_LeakingSuit.wav using Guid(8f534bc6f876ed641844136115bc2606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b575d983e65ace87263483ed86e0ea') in 0.011005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_TimeVortex.wav
-  artifactKey: Guid(29057faafc5ecf349b690d481d0fcd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_TimeVortex.wav using Guid(29057faafc5ecf349b690d481d0fcd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce6d98fa9a1fbcbf134ab9f34eec2a') in 0.011154 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Plasma Cutting (Frontal Movement).wav
+  artifactKey: Guid(c29091d153adb9640a72c7544f9d3c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Plasma Cutting (Frontal Movement).wav using Guid(c29091d153adb9640a72c7544f9d3c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0232cb1f1e507fcfa92bf3ffc7bcc0fe') in 0.010459 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_CommunicationOverload.wav
-  artifactKey: Guid(c89ae2f54df9657498b409b296faa066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_CommunicationOverload.wav using Guid(c89ae2f54df9657498b409b296faa066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a2a22963084a40ebc025e3d4edaeff') in 0.010462 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Hydraulic Door (Closing).wav
+  artifactKey: Guid(0019c17a69d926a42b58d25efa7c7cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Hydraulic Door (Closing).wav using Guid(0019c17a69d926a42b58d25efa7c7cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8260d801b63d3720725338d4c60255') in 0.009087 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_UnchartedDepths.wav
-  artifactKey: Guid(e6d27bb63869d9d4fb607b21889ef25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/ATONAL DRONES/SL_Synth_Drone_UnchartedDepths.wav using Guid(e6d27bb63869d9d4fb607b21889ef25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf0f1bbd7146aa5b4de4597a6af6282') in 0.012345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.275655 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Blast_DigiMelt.wav
-  artifactKey: Guid(04e619f76ab5ac442891bbc595f7e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Blast_DigiMelt.wav using Guid(04e619f76ab5ac442891bbc595f7e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac74d484585d8fed7d9a19f4522da5ea') in 0.011289 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Hammer Hit On Metal 1.wav
+  artifactKey: Guid(1ded51ba3464972428f5950d913250d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Hammer Hit On Metal 1.wav using Guid(1ded51ba3464972428f5950d913250d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f8505f5808c2cb17d1936659bb7e23') in 0.009580 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_SlamIt.wav
-  artifactKey: Guid(18645f0c054adec4aae53c8dfbd141b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_SlamIt.wav using Guid(18645f0c054adec4aae53c8dfbd141b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a46db341f2c855fbc2b0f9669017da3') in 0.011045 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Metal Sheets (Small) 1.wav
+  artifactKey: Guid(cc36cf1cc0b257a44972567ec9935f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Metal Sheets (Small) 1.wav using Guid(cc36cf1cc0b257a44972567ec9935f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fd7d7189b705e843ec45c233ca3e7f') in 0.009480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Aluminium Sliding Ladder.wav
+  artifactKey: Guid(29272f472c4e04a4dab2056c557e4a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Aluminium Sliding Ladder.wav using Guid(29272f472c4e04a4dab2056c557e4a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a911cae64dc51ab40cb0f4c4c4577ed5') in 0.009465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Air Compressor (Turning Off).wav
+  artifactKey: Guid(b365d1aa98f6eac4893af51d91aa4bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Air Compressor (Turning Off).wav using Guid(b365d1aa98f6eac4893af51d91aa4bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bb6430bebd5e4c907f75fba3813148') in 0.009892 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_RustMech.wav
-  artifactKey: Guid(92e47ddd574ffd24ebd847b32c2dbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_RustMech.wav using Guid(92e47ddd574ffd24ebd847b32c2dbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e958f946063f019c53dde9ecae2f5b05') in 0.013055 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Switch 1.wav
+  artifactKey: Guid(7035b78aba138fb41aef86ab34c0e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Switch 1.wav using Guid(7035b78aba138fb41aef86ab34c0e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b7f8badbdf34d2605ec9f9739d579b') in 0.010368 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Blast_ShoreLand.wav
-  artifactKey: Guid(b3375f871a866c842ba2c8be8eb64aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Blast_ShoreLand.wav using Guid(b3375f871a866c842ba2c8be8eb64aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaebc3a718e9f8a6d150232c857f531') in 0.010147 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Chain Pulley.wav
+  artifactKey: Guid(61914af55ccaeb24e92bdcc6f4aa6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Chain Pulley.wav using Guid(61914af55ccaeb24e92bdcc6f4aa6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf4a49f302b546a21169750acd24d67') in 0.009540 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_CallResponse.wav
-  artifactKey: Guid(ff459119e15b06a41a7de0947ffc1c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_CallResponse.wav using Guid(ff459119e15b06a41a7de0947ffc1c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da42a6543684a8c4ad24266a72feb9f2') in 0.010568 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Metal Sheets (Small) 2.wav
+  artifactKey: Guid(b673ff24948d5804091ec65f8eb911fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Metal Sheets (Small) 2.wav using Guid(b673ff24948d5804091ec65f8eb911fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cdad2097619f9681ba9851390148c9') in 0.009672 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_GalaticWar.wav
-  artifactKey: Guid(9c24913a68f468942930c1b390097f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_GalaticWar.wav using Guid(9c24913a68f468942930c1b390097f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d3fdd2fb10cf5a2b7324f1653f73af') in 0.011204 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Gas Tank 2.wav
+  artifactKey: Guid(87bb97974f1b04945a19281551c33ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Gas Tank 2.wav using Guid(87bb97974f1b04945a19281551c33ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956e47c9b0f0a16c4f1a9736beb1d0c6') in 0.010247 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_CargoTumble.wav
-  artifactKey: Guid(78a7efbd49a1bcc49b2edc138d9ea8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Cosmic Sea WAV/IMPACTS & BLASTS/SL_Sound_Effect_Impact_CargoTumble.wav using Guid(78a7efbd49a1bcc49b2edc138d9ea8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a92dae038a5f3ef02c3c28e7981253') in 0.010321 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Heavy Air Compressor (Working).wav
+  artifactKey: Guid(1c2499cccb4e636488930d1d8dc9ade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Heavy Air Compressor (Working).wav using Guid(1c2499cccb4e636488930d1d8dc9ade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0268090b07d09044a6bc051d5f4490') in 0.010379 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.792176 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_01_F.wav
-  artifactKey: Guid(19715b269f5522543a08d3506f9d9400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_01_F.wav using Guid(19715b269f5522543a08d3506f9d9400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ad1b08627491dad886a9b0fbb093a6') in 0.013859 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Iron Square Tube 2.wav
+  artifactKey: Guid(8337030da4856d045a4028fdce343985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Iron Square Tube 2.wav using Guid(8337030da4856d045a4028fdce343985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed214e3f9da3ae538c41c373858a001a') in 0.010871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Air Extractor (Side).wav
+  artifactKey: Guid(6d4609b6ffe8a83418ce3faa7511ad62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Air Extractor (Side).wav using Guid(6d4609b6ffe8a83418ce3faa7511ad62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b8cc5254d8a7ff103ec7bb607ca57e') in 0.009248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Helmets.wav
+  artifactKey: Guid(f5b28334939036342a485c3ddec44031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Helmets.wav using Guid(f5b28334939036342a485c3ddec44031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6fa17c093060e80c1e1170ed182f40') in 0.009522 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_12_C.wav
-  artifactKey: Guid(ffe4dd18d1b61ff459970572f83d5cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_12_C.wav using Guid(ffe4dd18d1b61ff459970572f83d5cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1ddd2647f6bc29eef23215cd7c7afc') in 0.009906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_04_D.wav
-  artifactKey: Guid(8936fbf5368bbde44a22195ce54be0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_04_D.wav using Guid(8936fbf5368bbde44a22195ce54be0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d7525def8837d1a1cf12fcbcb3a4b6') in 0.012230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_18_D.wav
-  artifactKey: Guid(b5fbdc6340d710741a5199e25d77e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_18_D.wav using Guid(b5fbdc6340d710741a5199e25d77e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50bd60e0d104beee715bae8513332c9') in 0.011386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_28_F.wav
-  artifactKey: Guid(a8cf52d989955ed47a7d6187f2929a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_28_F.wav using Guid(a8cf52d989955ed47a7d6187f2929a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c07edd5dc6c1233b326aafee3e08f48') in 0.009394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_31_F.wav
-  artifactKey: Guid(b8721a1971434cd4eb83ff5f02790c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_31_F.wav using Guid(b8721a1971434cd4eb83ff5f02790c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76342947c417c7c90c92709f327e7c0e') in 0.010373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_30_F.wav
-  artifactKey: Guid(9a43343f71725f84fabc0209fdf8b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_30_F.wav using Guid(9a43343f71725f84fabc0209fdf8b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83d881228d239cc75207293717c6443') in 0.009502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_09_G.wav
-  artifactKey: Guid(8e595d7e4e8aa4b4b86c90f08ab0cf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_09_G.wav using Guid(8e595d7e4e8aa4b4b86c90f08ab0cf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e36edd7fefca1fa16612b400affc0a1') in 0.009722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_05_D.wav
-  artifactKey: Guid(7c3464bf57835a24a81c9c1764b4d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_05_D.wav using Guid(7c3464bf57835a24a81c9c1764b4d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb2f61f15ae67953a6ca1320a10e3b8') in 0.010507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_35_D.wav
-  artifactKey: Guid(63ed499ff8f367e489f5351e5d61a45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_35_D.wav using Guid(63ed499ff8f367e489f5351e5d61a45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f61bf9588831416b6642542bb37aba') in 0.009447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_15_D.wav
-  artifactKey: Guid(e28a224686f7db64fa8b3683ef5fb3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_15_D.wav using Guid(e28a224686f7db64fa8b3683ef5fb3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece4a0e01b439ee8b71f826271f2ddd4') in 0.010297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_10_G.wav
-  artifactKey: Guid(0ae5dbe09ac6d76449cc3dbcbc3f2ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_10_G.wav using Guid(0ae5dbe09ac6d76449cc3dbcbc3f2ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd554b59675a70c7a3a83e08a83a463ba') in 0.012213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_16_D.wav
-  artifactKey: Guid(36e4ea0d8e579dc47906b4f9215140f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_16_D.wav using Guid(36e4ea0d8e579dc47906b4f9215140f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2036846165d8f36dae2f5f10ccba5466') in 0.009906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_19_D.wav
-  artifactKey: Guid(f93b208cf26a0d643bcfc50c316a487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_19_D.wav using Guid(f93b208cf26a0d643bcfc50c316a487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e06bfd240c7e5b373da32a71995db2e') in 0.010261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_14_C.wav
-  artifactKey: Guid(5302fb48c0711b24da6e400c4ee52c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_14_C.wav using Guid(5302fb48c0711b24da6e400c4ee52c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f401f679f875b8f0bf8f62ed05c0a3c4') in 0.010617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_03_F.wav
-  artifactKey: Guid(087ffc0734e99d1448ec32cf16ce8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_03_F.wav using Guid(087ffc0734e99d1448ec32cf16ce8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83cb8d481e41a7d96e07fba6295b74f') in 0.009098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_24_G#.wav
-  artifactKey: Guid(ad503d1eb563de046a6a0b60adf9a671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Bass One Shots/SLDBH_Bass_One_Shot_24_G#.wav using Guid(ad503d1eb563de046a6a0b60adf9a671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5e15da53e0f12f1260ad2e50460550') in 0.009434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.797060 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Clap_One_Shot_02.wav
-  artifactKey: Guid(0dd45587e665c404d89fa1a4a23c58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Clap_One_Shot_02.wav using Guid(0dd45587e665c404d89fa1a4a23c58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ec7924b6f97814cd0841ee7ba60315') in 0.011702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Crash_One_Shot_02.wav
-  artifactKey: Guid(2a3eb8b3e541938498c79a629873d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Crash_One_Shot_02.wav using Guid(2a3eb8b3e541938498c79a629873d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03740010f63aa7b7f2097c4a40d7500d') in 0.010600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_02.wav
-  artifactKey: Guid(100c6e2559547c44caf02563b97cd568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_02.wav using Guid(100c6e2559547c44caf02563b97cd568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11958823cfa4ed7acc5da86bbdd2b46a') in 0.011787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_11.wav
-  artifactKey: Guid(aa9d226bdfde28944ae33337bdc8bf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_11.wav using Guid(aa9d226bdfde28944ae33337bdc8bf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa6fad7ea8651ab250063fbd8b7c66c') in 0.010004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_04.wav
-  artifactKey: Guid(7e26bdb6f52cdec42b90d48aa60a7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_04.wav using Guid(7e26bdb6f52cdec42b90d48aa60a7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893c5cae23f8878eab16090659c2d132') in 0.010006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_11.wav
-  artifactKey: Guid(02aa8c9d350320b438e6d8f7dc503ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_11.wav using Guid(02aa8c9d350320b438e6d8f7dc503ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1d315e12cefef49cfd4ee245ff645c') in 0.009138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_08.wav
-  artifactKey: Guid(c063d40679294ab49aff99a4eb02c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_08.wav using Guid(c063d40679294ab49aff99a4eb02c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ba1bfc7b393a437fa24141a2e7d30b') in 0.009016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_02.wav
-  artifactKey: Guid(880a97353a9eda4489b01657489b444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_02.wav using Guid(880a97353a9eda4489b01657489b444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854f5964c2e4b4fa1aef9b811acaec15') in 0.013814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_01.wav
-  artifactKey: Guid(cfeed36379995374e87365591ad6de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_01.wav using Guid(cfeed36379995374e87365591ad6de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee6d4ad40a937632968826827e5a8d6') in 0.011970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_09.wav
-  artifactKey: Guid(eb9c37de5ead78246bf6f8dbac28a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Snare_One_Shot_09.wav using Guid(eb9c37de5ead78246bf6f8dbac28a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db616660312a7ac013f5d1accd5ab52d') in 0.016768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_01.wav
-  artifactKey: Guid(57df9ffc11aff8c4eb408dac732dc5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_01.wav using Guid(57df9ffc11aff8c4eb408dac732dc5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ee9269efddb7e1d8353e86b7d7c984') in 0.009363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_09.wav
-  artifactKey: Guid(daf0c5d9027e8e74fb3c2df2a143874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_09.wav using Guid(daf0c5d9027e8e74fb3c2df2a143874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926ad0e6213eca532767b38e64cba353') in 0.009335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_03.wav
-  artifactKey: Guid(6f0947d1904f92949b9345499d47f728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_03.wav using Guid(6f0947d1904f92949b9345499d47f728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210e23a14a82a41bcbc3ed9414229d0c') in 0.009337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_05.wav
-  artifactKey: Guid(bbca2e5cb5aacf64c882e0260e56d390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_05.wav using Guid(bbca2e5cb5aacf64c882e0260e56d390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532467a7716146dff207302db6c5ccaf') in 0.011499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_10.wav
-  artifactKey: Guid(8ac48c2de0aebaf4cbd4f9a64dc7a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_10.wav using Guid(8ac48c2de0aebaf4cbd4f9a64dc7a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05ad720f88474cf2a75601ce959e697') in 0.009827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_04.wav
-  artifactKey: Guid(7e14879af9d8cf54cb44ca13b938eaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_04.wav using Guid(7e14879af9d8cf54cb44ca13b938eaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bb7b1dcc63e3981acb0738d29f958d') in 0.013237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Percussion_One_Shot_05.wav
-  artifactKey: Guid(9a06d715d78b09747bafc7adb45f08d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Percussion_One_Shot_05.wav using Guid(9a06d715d78b09747bafc7adb45f08d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe96915f23b1f4b889ab59500d23eca') in 0.010510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Ride_One_Shot_03.wav
-  artifactKey: Guid(17e0bb38934dc1c4e9e489827d8e2dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Ride_One_Shot_03.wav using Guid(17e0bb38934dc1c4e9e489827d8e2dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c1e30e941d6b57b4687b68b57082e3') in 0.012216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_08.wav
-  artifactKey: Guid(749dbcf676be18642950ca6c1660faaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_08.wav using Guid(749dbcf676be18642950ca6c1660faaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa1a1b9f6c78342e43798ad1bcd8a88') in 0.009865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_08.wav
-  artifactKey: Guid(356bbde16ff7bd24f941dfc216201761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_08.wav using Guid(356bbde16ff7bd24f941dfc216201761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f300ef8e244da92ded881f2d8519e9') in 0.011999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_05.wav
-  artifactKey: Guid(291f5364d6c88db4299c23163ac5620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Kick_One_Shot_05.wav using Guid(291f5364d6c88db4299c23163ac5620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99730d8fb89f8162d2bae5ddc34cd665') in 0.012057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_06.wav
-  artifactKey: Guid(c8c4056c6860a3540820f54725742b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_06.wav using Guid(c8c4056c6860a3540820f54725742b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7578ddfd6143957bde941455325d2196') in 0.009920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_06.wav
-  artifactKey: Guid(d78c1d3cdeffc404c85df71b671665df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Open_Hihat_One_Shot_06.wav using Guid(d78c1d3cdeffc404c85df71b671665df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5de2efbb915365405286a46509d6f77') in 0.011105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Ride_One_Shot_01.wav
-  artifactKey: Guid(877ddd149b042504aa70c84ef16fb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Ride_One_Shot_01.wav using Guid(877ddd149b042504aa70c84ef16fb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32275aa1cb3fa0bbf08598164eb198c') in 0.008908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_10.wav
-  artifactKey: Guid(461279750edb88c40a0d39cdff551869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_10.wav using Guid(461279750edb88c40a0d39cdff551869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829aa4d3d09b0264bfdc27df45afd11d') in 0.012317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_03.wav
-  artifactKey: Guid(57fac32aef3734344bdc1ccffa97ab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Dark Bass House WAV/One-shots/Drum One Shots/SLDBH_Closed_Hihat_One_Shot_03.wav using Guid(57fac32aef3734344bdc1ccffa97ab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a016225801a29bc51438cba882a9e5e') in 0.010091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.107898 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/A# Scales/SL Brass A DIM Swell.wav
-  artifactKey: Guid(4cb9381bd960a9d4b9054508c1050537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/A# Scales/SL Brass A DIM Swell.wav using Guid(4cb9381bd960a9d4b9054508c1050537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff650cee2bf89a8887106f634eee49f2') in 0.009259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/G# Scales/SL Brass C# MAJ Swell.wav
-  artifactKey: Guid(d719900e00a00bd42b403a35fb8a2e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/G# Scales/SL Brass C# MAJ Swell.wav using Guid(d719900e00a00bd42b403a35fb8a2e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd055e3d8de8bde58f9ee8636d9df262') in 0.009688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/E Scales/SL Brass B D M7 Swell.wav
-  artifactKey: Guid(f8c531a993d2ed343b57a13721c5ee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/E Scales/SL Brass B D M7 Swell.wav using Guid(f8c531a993d2ed343b57a13721c5ee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252720cdb05472a1b5dd2c4e901a572b') in 0.010627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F# Scales/SL Brass C# DM7 Swell.wav
-  artifactKey: Guid(a4215c5b5b7d9f14eb2717c94743842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F# Scales/SL Brass C# DM7 Swell.wav using Guid(a4215c5b5b7d9f14eb2717c94743842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087c692f0059e612482fc4772434f45c') in 0.010587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/A Scales/SL Brass C# MIN Swell.wav
-  artifactKey: Guid(a001b2007f9bb3b45be50e3ddd55447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/A Scales/SL Brass C# MIN Swell.wav using Guid(a001b2007f9bb3b45be50e3ddd55447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce93b969ccdccf329d3c7dd9003d90b') in 0.009515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/E Scales/SL Brass C# MIN7 Swell.wav
-  artifactKey: Guid(f225317774dc4f749a636bdeeeac7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/E Scales/SL Brass C# MIN7 Swell.wav using Guid(f225317774dc4f749a636bdeeeac7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2a8a4d69e8e2194da57ba380714619') in 0.016081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F Scales/SL Brass A# MAJ7 Swell.wav
-  artifactKey: Guid(309b5b3f534cebc42b4863c9b6dde3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F Scales/SL Brass A# MAJ7 Swell.wav using Guid(309b5b3f534cebc42b4863c9b6dde3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c69305d502f7077187889b10604c3c8') in 0.010226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass C# MAJ Swell.wav
-  artifactKey: Guid(1056fee139096034e948320a07c28c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass C# MAJ Swell.wav using Guid(1056fee139096034e948320a07c28c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3137994b4b52225b6c5e13dc6348342e') in 0.006985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass A# MIN Swell.wav
-  artifactKey: Guid(df25984c412164f4fbda8a20e9d8c1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass A# MIN Swell.wav using Guid(df25984c412164f4fbda8a20e9d8c1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9b8e8bafe7c44c2cac0d982320980d') in 0.006401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Augmented Chords/SL Brass B AUG Swell.wav
-  artifactKey: Guid(4333e15a95ef7b24e9283357161ba23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Augmented Chords/SL Brass B AUG Swell.wav using Guid(4333e15a95ef7b24e9283357161ba23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9c48820849ed817ed021fdadd41f07') in 0.012538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/B Scales/SL Brass B MAJ Swell.wav
-  artifactKey: Guid(65f52fa868f21d2419ae264ce14a859d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/B Scales/SL Brass B MAJ Swell.wav using Guid(65f52fa868f21d2419ae264ce14a859d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffaae93e1c8e018755cdb9beafc6810') in 0.010664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C Scales/SL Brass C MAJ Swell.wav
-  artifactKey: Guid(70d1db709e314654eb2448cf33334aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C Scales/SL Brass C MAJ Swell.wav using Guid(70d1db709e314654eb2448cf33334aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f72757a1b2d60dad074e9c8ca3f3bd') in 0.006497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/D# Scales/SL Brass C MIN Swell.wav
-  artifactKey: Guid(611eaac8deda76a448614a97d1f7e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/D# Scales/SL Brass C MIN Swell.wav using Guid(611eaac8deda76a448614a97d1f7e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d32e7189fb18fd81a2e82897ada1042') in 0.010110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass A# MIN7 Swell.wav
-  artifactKey: Guid(c560c4f8ad1b2be42aabcfb84e4f62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass A# MIN7 Swell.wav using Guid(c560c4f8ad1b2be42aabcfb84e4f62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce53bd2ca15f72dcf8eca03a3b2a732') in 0.006154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/A# Scales/SL Brass C MIN Swell.wav
-  artifactKey: Guid(d3f15db99f868a946b1682a7e9a4e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/A# Scales/SL Brass C MIN Swell.wav using Guid(d3f15db99f868a946b1682a7e9a4e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6efbb255fae5263ffc955cdbff4f7a7') in 0.006670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/D Scales/SL Brass B MIN Swell.wav
-  artifactKey: Guid(446c5643ba16de54a8d37225b4ccfb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/D Scales/SL Brass B MIN Swell.wav using Guid(446c5643ba16de54a8d37225b4ccfb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dc331c5e6afb09a407826d63a30c2d') in 0.006823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/E Scales/SL Brass B MAJ Swell.wav
-  artifactKey: Guid(3bffac13a5041274aa652320927df5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/E Scales/SL Brass B MAJ Swell.wav using Guid(3bffac13a5041274aa652320927df5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887e453a695971181326cb23f43408c') in 0.006194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F# Scales/SL Brass A# MIN7 Swell.wav
-  artifactKey: Guid(a661a6f032e07ff49a95510f0cf82dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F# Scales/SL Brass A# MIN7 Swell.wav using Guid(a661a6f032e07ff49a95510f0cf82dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b064ef602e3ba729e03648234b9d3b') in 0.006703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Augmented Chords/SL Brass A# AUG Swell.wav
-  artifactKey: Guid(ed51efbb3552feb43ac4ebd229b16428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Augmented Chords/SL Brass A# AUG Swell.wav using Guid(ed51efbb3552feb43ac4ebd229b16428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9043d9f2af3a37dc5709c841b6d2738c') in 0.009629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass C# MAJ7 Swell.wav
-  artifactKey: Guid(e4100cd99a99b00479665411e32be50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/C# Scales/SL Brass C# MAJ7 Swell.wav using Guid(e4100cd99a99b00479665411e32be50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9540ab64cee08680e355c6060fba07ae') in 0.007042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/B Scales/SL Brass B MAJ7 Swell.wav
-  artifactKey: Guid(32d2f15aa063c514f8bd088abf558f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/B Scales/SL Brass B MAJ7 Swell.wav using Guid(32d2f15aa063c514f8bd088abf558f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f11d4735d7d3d4a4f5ff020c57a478b') in 0.006213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F Scales/SL Brass A# MAJ Swell.wav
-  artifactKey: Guid(46a98defbb3048f459b920fc8066b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Scales/F Scales/SL Brass A# MAJ Swell.wav using Guid(46a98defbb3048f459b920fc8066b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fba4460659670541e055d30e7f309ca') in 0.008056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Augmented Chords/SL Brass C AUG Swell.wav
-  artifactKey: Guid(e4d47b12605ed984f8790bf2bcce0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Mega_Horns_Chord_Stabs_Swells_WAV/Augmented Chords/SL Brass C AUG Swell.wav using Guid(e4d47b12605ed984f8790bf2bcce0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be96cb9061e40fc06bf9238013a55f3') in 0.010600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.678388 seconds.
-  path: Assets/Music/Soundtrack_Loops_Sounds_of_Mexico_City_WAV/One-shots/SL Foley Sound Effects Broom Sweep 1.wav
-  artifactKey: Guid(bfeec4bc53bd71146b82ac467b908a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Sounds_of_Mexico_City_WAV/One-shots/SL Foley Sound Effects Broom Sweep 1.wav using Guid(bfeec4bc53bd71146b82ac467b908a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7305e92d1dc13ca90b91dcd8a7221a5') in 0.009888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Music/Soundtrack Loops Future R&B Vocals WAV/Loops/Synths/SL_RnB_Synth_125_Sweetdreams_C.wav
-  artifactKey: Guid(408128fe033c3444a8b4743d5705c009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Future R&B Vocals WAV/Loops/Synths/SL_RnB_Synth_125_Sweetdreams_C.wav using Guid(408128fe033c3444a8b4743d5705c009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f73505d165afba898453c2908277f7f') in 0.010893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Music/Soundtrack Loops Future R&B Vocals WAV/Loops/Synths/SL_RnB_Synth_120_Sweet_F.wav
-  artifactKey: Guid(72a3403613cda914599dc990e107b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack Loops Future R&B Vocals WAV/Loops/Synths/SL_RnB_Synth_120_Sweet_F.wav using Guid(72a3403613cda914599dc990e107b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fcd72aae7f8d048fef5cba6ad0aa33') in 0.010498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Cyberpunk_WAV/CyberPunk 3 105bpm G-minor/FX/SL_Cyberpunk_K3_Noise_Sweep_105bpm.wav
-  artifactKey: Guid(42743949b52265745988130f91dac80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Cyberpunk_WAV/CyberPunk 3 105bpm G-minor/FX/SL_Cyberpunk_K3_Noise_Sweep_105bpm.wav using Guid(42743949b52265745988130f91dac80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18670531036a95870c5916a4826a9ef7') in 0.009674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 57.417374 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Beans Can Hit.wav
-  artifactKey: Guid(ab3cd914221ad22468a2643d8fb27a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Beans Can Hit.wav using Guid(ab3cd914221ad22468a2643d8fb27a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3757a3716f7230fad91bd5c4c82438') in 0.011920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Sardine Can Lid.wav
-  artifactKey: Guid(1359cd78d487b0b4a951d3f8e8977dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Sardine Can Lid.wav using Guid(1359cd78d487b0b4a951d3f8e8977dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4665760088ebd52982e34e3ba192387') in 0.010205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Jalapen¦âo Peppers Can Hit.wav
-  artifactKey: Guid(fe257942385a92242b403db9287413d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Jalapen¦âo Peppers Can Hit.wav using Guid(fe257942385a92242b403db9287413d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6498815715729ff40a99d72655a149d6') in 0.010840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Carton Box 2.wav
-  artifactKey: Guid(2b909ca5badd4bd40826c1c44d3e4e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Carton Box 2.wav using Guid(2b909ca5badd4bd40826c1c44d3e4e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2384f256f846a4736adfef7253229d77') in 0.010363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Bucket 2 Hand Stroke.wav
-  artifactKey: Guid(a588967e4ab9d084bb7e0a0bcbe07035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Bucket 2 Hand Stroke.wav using Guid(a588967e4ab9d084bb7e0a0bcbe07035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3164bbd2a8702c18a0a68a0d7e6070f8') in 0.010057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Glass Bottles.wav
-  artifactKey: Guid(5b6d210e24918e64ebf0d7b5955a68ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Glass Bottles.wav using Guid(5b6d210e24918e64ebf0d7b5955a68ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06ee4eedfbfd1379cb2cce9c738db4f') in 0.010972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Tuna Can Falling.wav
-  artifactKey: Guid(c81b27eb2e185934e9368e3e1d9251f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Tuna Can Falling.wav using Guid(c81b27eb2e185934e9368e3e1d9251f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f251d6721eb5f6854d5291053ed3e4') in 0.010846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Soda Cork Tambourine 1.wav
-  artifactKey: Guid(c953864c4cf6d8843824354cff9df85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Soda Cork Tambourine 1.wav using Guid(c953864c4cf6d8843824354cff9df85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb7cba9ed084bcad209e926e8cc8599') in 0.010652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Bucket 4 Stick Stroke.wav
-  artifactKey: Guid(61d8d142cd02c284ca42cc86ae7807e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Bucket 4 Stick Stroke.wav using Guid(61d8d142cd02c284ca42cc86ae7807e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda55b94a871f35c5a53b4477e36a227') in 0.011962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Bucket 5 Hand Stroke.wav
-  artifactKey: Guid(87da03ba5716c0b4c8b94cdd3fca43c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Bucket 5 Hand Stroke.wav using Guid(87da03ba5716c0b4c8b94cdd3fca43c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f146666622ffe02592193a84fe28b48') in 0.009088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Trash Bag.wav
-  artifactKey: Guid(728b5f29afb7d6949b88828363ee0243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Trash Bag.wav using Guid(728b5f29afb7d6949b88828363ee0243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78f4ba300967a2351b0caa424fa8089') in 0.013911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Plastic Cup Crushed.wav
-  artifactKey: Guid(ee79c220a06da0b448d2eb803a1da680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Plastic Cup Crushed.wav using Guid(ee79c220a06da0b448d2eb803a1da680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e43e3422e7d03b38e64c0e6a62f9e0') in 0.009246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Soda Cork Tambourine 3.wav
-  artifactKey: Guid(37ecca5acdf0b5a4faaf87560e1a9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/Soundtrack_Loops_Trash_WAV/One-shots/SL Foley Sound Effect Soda Cork Tambourine 3.wav using Guid(37ecca5acdf0b5a4faaf87560e1a9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76826b1abcaa92b599cf1287815a49a7') in 0.010558 seconds 
+  path: Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Heavy Mechanism (Hit).wav
+  artifactKey: Guid(5b2d84d0c29eb4442b93508c34a7b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Soundtrack_Loops_Industrial_Complex_SFX_WAV/One-shots/SL Foley Metallic Hit Sfx Heavy Mechanism (Hit).wav using Guid(5b2d84d0c29eb4442b93508c34a7b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996164d2eb5afd3f8ed9c43f9da23a01') in 0.008301 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
