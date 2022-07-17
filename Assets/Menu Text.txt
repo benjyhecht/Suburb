@@ -1,0 +1,11 @@
+Instructions:
+- Drag and drop the buildings and streets onto the grid in the middle
+- Puzzle pieces do not rotate. If there's a hole in your puzzle, rearrange it
+- Move the camera by holding down the right mouse button
+
+- Puzzle Size controls the size of the *next* puzzle.
+- Piece Size controls the size of the pieces for the *next* puzzle
+- Adjust the music and sound effects volume to your taste.
+- Play starts a new puzzle
+- Quit exits the game
+- The Menu button (in the top right) shows and hides all of these handy hints

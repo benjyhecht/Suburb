@@ -47,16 +47,36 @@ public class SolutionChecker : MonoBehaviour
         foreach(GameObject piece in gamePieces)
         {
             PieceProperties pp = piece.GetComponent<PieceProperties>();
-            pp.CalculateExtents();
+            pp.CalculateExtents(false);
             //Vector2 minExtents = new Vector2 (pp.transform.position.x, pp.transform.position.z) - pp.GetMinExtents();
             //Vector2 maxExtents = pp.GetMaxExtents() + new Vector2(pp.transform.position.x, pp.transform.position.z);
             Vector2 minExtents = pp.GetMinExtents();
             Vector2 maxExtents = pp.GetMaxExtents();
-            if (minExtents.x < 0 || minExtents.y < 0 || maxExtents.x >= puzzleSize || maxExtents.y >= puzzleSize)
+            string message = pp.name;
+            message += " Min Extents: " + minExtents + " || Max Extents: " + maxExtents;
+            if (minExtents.x < -.1f)
             {
                 gameOver = false;
+                message += " (min x too low: " + minExtents.x + ") ";
             }
+            if (minExtents.y < -.1f)
+            {
+                gameOver = false;
+                message += " (min y too low: " + minExtents.y + ") ";
+            }
+            if (maxExtents.x > puzzleSize - .9f)
+            {
+                gameOver = false;
+                message += " (max x too high: " + maxExtents.x + ") ";
+            }
+            if (maxExtents.y > puzzleSize - .9f)
+            {
+                gameOver = false;
+                message += " (max y too high: " + maxExtents.y + ") ";
+            }
+            print(message);
         }
+        print("");
 
         if (gameOver)
         {

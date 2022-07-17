@@ -16,7 +16,7 @@ public class MenuMessageManager : MonoBehaviour
         }
         else
         {
-            textMeshPro.text = "Paused!";
+            textMeshPro.text = "Paused ...";
         }
     }
 }

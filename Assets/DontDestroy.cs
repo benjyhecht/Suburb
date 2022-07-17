@@ -6,6 +6,7 @@ public class DontDestroy : MonoBehaviour
 {
     [Range(5, 10)] [SerializeField] float puzzleSize = 5;
     [Range(1, 3)][SerializeField] float pieceSize = 1;
+    [SerializeField] bool rotationAllowed = false;
 
     bool playing = false;
     AudioClip currentAudioClip;
@@ -82,5 +83,15 @@ public class DontDestroy : MonoBehaviour
     public void SetSFXVolume(float volume)
     {
         sfxVolume = volume;
+    }
+
+    public bool GetRotationAllowed()
+    {
+        return rotationAllowed;
+    }
+
+    public void SetRotationAllowed(bool rotationAllowed)
+    {
+        this.rotationAllowed = rotationAllowed;
     }
 }

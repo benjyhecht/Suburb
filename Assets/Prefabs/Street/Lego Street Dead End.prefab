@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1424387392597763417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6589584446450201424}
+  - component: {fileID: -3005123056167530113}
+  - component: {fileID: -5714787879404629769}
+  m_Layer: 7
+  m_Name: Lego Street Dead End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6589584446450201424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424387392597763417}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 826424506392800795}
+  - {fileID: 5186702551402070146}
+  - {fileID: 1475077889684616478}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &-3005123056167530113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424387392597763417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.99, y: 9.99, z: 2}
+  m_Center: {x: 0, y: 0, z: 1}
+--- !u!114 &-5714787879404629769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424387392597763417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21920a87634c4b64c84a094401c1a140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environment: 2
+  blockType: 1
+  matChange: 0
+--- !u!1001 &2381858402381291344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6589584446450201424}
+    m_Modifications:
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306966552968387402, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+      propertyPath: m_Name
+      value: Street Dead End Asphalt
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+--- !u!4 &826424506392800795 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3059636489358881099, guid: 7f27ec39ad0d0d94685584c85ab4461d, type: 3}
+  m_PrefabInstance: {fileID: 2381858402381291344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6085049260826047290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6589584446450201424}
+    m_Modifications:
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665052085144304282, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+      propertyPath: m_Name
+      value: Street Dead End Cement
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+--- !u!4 &5186702551402070146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1407566668533920696, guid: 8fd3583f7006db44e98ce0c7bd143092, type: 3}
+  m_PrefabInstance: {fileID: 6085049260826047290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7617682802242877901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6589584446450201424}
+    m_Modifications:
+    - target: {fileID: 723212779528804508, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_Name
+      value: Street Dead End Grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+--- !u!4 &1475077889684616478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9065734657527958739, guid: 29b75b76bf74c504cbd27b476265741d, type: 3}
+  m_PrefabInstance: {fileID: 7617682802242877901}
+  m_PrefabAsset: {fileID: 0}

@@ -26,6 +26,7 @@ public class BlockPlacer : MonoBehaviour
 
     GameObject ground;
     SolutionChecker sc;
+    DontDestroy dd;
 
     public void Awake()
     {
@@ -36,6 +37,7 @@ public class BlockPlacer : MonoBehaviour
 
         ground = GameObject.FindGameObjectWithTag("Ground");
         sc = GameObject.FindGameObjectWithTag("GameController").GetComponent<SolutionChecker>();
+        dd = GameObject.FindGameObjectWithTag("DontDestroy").GetComponent<DontDestroy>();
     }
 
     public void InstantiatePiece(List<List<Vector2>> allPieces, int puzzleSize)
@@ -76,7 +78,6 @@ public class BlockPlacer : MonoBehaviour
             if (pieceList.Count == 1)
             {
                 GameObject singleBlock = Instantiate(GetBlock(Enums.Environment.NA, Enums.BlockType.NA), new Vector3(pieceList[0].x, 0, pieceList[0].y), Quaternion.Euler(-90, 0, 0), null);
-                //singleBlock.GetComponent<MeshRenderer>().material.color = Color.black;
                 singleBlock.transform.localScale = new Vector3(.1f, .1f, .1f);
                 singleBlock.transform.parent = this.transform;
                 GameObject singleBlockFiller = Instantiate(basicBlockFills[Random.Range(0, basicBlockFills.Length)]);
@@ -87,7 +88,6 @@ public class BlockPlacer : MonoBehaviour
             {
                 empty.AddComponent<PieceMover>();
                 Color pieceColor = new Color(UnityEngine.Random.Range(0, 256) / 256f, UnityEngine.Random.Range(0, 256) / 256f, UnityEngine.Random.Range(0, 256) / 256f);
-
                 GameObject blockToPlace = GetBlock(Enums.Environment.NA, Enums.BlockType.NA);
                 int rotation = 0;
 
@@ -227,13 +227,12 @@ public class BlockPlacer : MonoBehaviour
                     singleBlock.transform.localScale = new Vector3(.1f, .1f, .1f);
                     if (env == Enums.Environment.HOUSE)
                     {
-                        Material[] mats = singleBlock.GetComponent<MeshRenderer>().materials;
-                        mats[singleBlock.GetComponent<PrefabProperties>().GetMatChange()].color = pieceColor;
+                        singleBlock.GetComponent<PrefabProperties>().SetInitialColor(pieceColor);
                     }
                     singleBlock.GetComponent<PrefabProperties>().CalculateColors();
                     singleBlock.name = blockName + " " + (Enums.Environment)envIndex;
                 }
-                empty.GetComponent<PieceProperties>().CalculateExtents();
+                empty.GetComponent<PieceProperties>().CalculateExtents(true);
                 moveablePieces.Add(empty);
             }
         }
@@ -268,7 +267,8 @@ public class BlockPlacer : MonoBehaviour
             }
         }
 
-        return blocks[Random.Range(0, blocks.Count)];
+        int randomIndex = Random.Range(0, blocks.Count);
+        return blocks[randomIndex];
     }
 
     static int SortBySizee(List<Vector2> list1, List<Vector2> list2)
@@ -292,8 +292,28 @@ public class BlockPlacer : MonoBehaviour
 
         foreach (GameObject piece in moveablePieces)
         {
+            piece.GetComponent<PieceProperties>().CalculateExtents(false);
             Vector2 minExtents = piece.GetComponent<PieceProperties>().GetMinExtents();
             Vector2 maxExtents = piece.GetComponent<PieceProperties>().GetMaxExtents();
+            Vector2 aveExtents = (minExtents + maxExtents) / 2;
+            int roundedX = Mathf.RoundToInt(aveExtents.x);
+            int roundedZ = Mathf.RoundToInt(aveExtents.y);
+            int roundedY = Mathf.RoundToInt(piece.transform.position.y);
+            Vector3 midPoint = new Vector3(roundedX, roundedY, roundedZ);
+            Vector3 translation = midPoint - piece.transform.position;
+            foreach (Transform block in piece.transform)
+            {
+                block.position = block.position - translation;
+            }
+
+            if (dd.GetRotationAllowed())
+            {
+                int rot = Random.Range(0, 4);
+                piece.transform.Rotate(0, rot * 90, 0);
+            }
+            piece.GetComponent<PieceProperties>().CalculateExtents(false);
+            minExtents = piece.GetComponent<PieceProperties>().GetMinExtents();
+            maxExtents = piece.GetComponent<PieceProperties>().GetMaxExtents();
             Vector2 extents = maxExtents - minExtents;
             if (extents.x > extents.y)
             {
@@ -404,6 +424,7 @@ public class BlockPlacer : MonoBehaviour
         float topMost = puzzleSize;
         foreach (GameObject piece in moveablePieces)
         {
+            piece.GetComponent<PieceProperties>().CalculateExtents(true);
             Vector2 minExtents = piece.GetComponent<PieceProperties>().GetMinExtents();
             Vector2 maxExtents = piece.GetComponent<PieceProperties>().GetMaxExtents();
             if(minExtents.x < leftMost)

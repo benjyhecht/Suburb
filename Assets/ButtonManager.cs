@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
     [SerializeField] Slider slider;
+    [SerializeField] Toggle toggle;
     float minPuzzleSize = 5;
     float maxPuzzleSize = 10;
     float puzzleSize = 5;
@@ -54,6 +55,10 @@ public class ButtonManager : MonoBehaviour
                 slider.value = (sfxManager.GetVolume() - minSFXVolume) / (maxSFXVolume - minSFXVolume);
             }
         }
+        if (toggle != null)
+        {
+            toggle.isOn = dd.GetRotationAllowed();
+        }
     }
 
     public void PuzzleSizeChange()
@@ -68,6 +73,11 @@ public class ButtonManager : MonoBehaviour
         float clampedValue = Mathf.Clamp(slider.value, 0, 1);
         pieceSize = minPieceSize + (maxPieceSize - minPieceSize) * clampedValue;
         dd.SetPieceSize(pieceSize);
+    }
+
+    public void RotationAllowedChange()
+    {
+        dd.SetRotationAllowed(toggle.isOn);
     }
 
     public void SongVolumeChange()

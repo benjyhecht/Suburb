@@ -69,19 +69,19 @@ public class PieceCreator : MonoBehaviour
         {
             if (possibleNeighbourStartingLocations.Count == 0)
             {
-                print("out of locations");
+                //print("out of locations");
                 currentlyAddingBlocks = false;
                 break;
             }
             else if (UnityEngine.Random.Range(0, 100) > 75 + puzzleSize + 5 * pieceSize)
             {
-                print("Rolled to end");
+                //print("Rolled to end");
                 currentlyAddingBlocks = false;
                 break;
             }
             else if (countDown <= 0)
             {
-                print("Too many pieces");
+                //print("Too many pieces");
                 currentlyAddingBlocks = false;
                 break;
             }

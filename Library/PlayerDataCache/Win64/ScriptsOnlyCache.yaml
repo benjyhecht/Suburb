@@ -33,6 +33,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -62,32 +64,37 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
-    methodName: PuzzleSizeChange
+    methodName: ReloadLevel
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: SFXVolumeChange
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
+    methodName: SongVolumeChange
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
+    methodName: RotationAllowedChange
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
     methodName: PieceSizeChange
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
-    methodName: ReloadLevel
+    methodName: PuzzleSizeChange
   - assembly: Assembly-CSharp
     fullTypeName: MenuShower
     methodName: ButtonShowMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonManager
-    methodName: SongVolumeChange
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -131,53 +138,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1810}
+      Script: {instanceID: 1770}
     - Class: 114
-      Script: {instanceID: 2352}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 2412}
+      Script: {instanceID: 2372}
     - Class: 114
-      Script: {instanceID: 2510}
+      Script: {instanceID: 2470}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2806}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3082}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 4380}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4600}
     - Class: 114
-      Script: {instanceID: 4964}
+      Script: {instanceID: 4924}
     - Class: 114
-      Script: {instanceID: 4998}
+      Script: {instanceID: 4958}
     - Class: 114
-      Script: {instanceID: 5234}
+      Script: {instanceID: 5184}
     - Class: 114
-      Script: {instanceID: 5280}
+      Script: {instanceID: 5194}
     - Class: 114
-      Script: {instanceID: 5292}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 5252}
     - Class: 114
-      Script: {instanceID: 5542}
+      Script: {instanceID: 5324}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5502}
     - Class: 114
-      Script: {instanceID: 6086}
+      Script: {instanceID: 5592}
     - Class: 114
-      Script: {instanceID: 6408}
+      Script: {instanceID: 5898}
     - Class: 114
-      Script: {instanceID: 7110}
+      Script: {instanceID: 6046}
     - Class: 114
-      Script: {instanceID: 7524}
+      Script: {instanceID: 6368}
     - Class: 114
-      Script: {instanceID: 30616}
+      Script: {instanceID: 7070}
+    - Class: 114
+      Script: {instanceID: 7484}
+    - Class: 114
+      Script: {instanceID: 7842}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -425,7 +436,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 998017b5d4ea45225786dc3990ba5276
+      Hash: 8fb625a6b10eb834c044c10ccf73f322
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DontDestroy
@@ -755,7 +766,7 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 1028c39545bcfa841aaab54121e69a47
+      Hash: 05202caedc4730f77461fede72f60bc5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonManager
@@ -1013,6 +1024,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuMessageManager
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1047,12 +1064,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuMessageManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
