@@ -15,7 +15,7 @@ C:/Users/Benjy/Documents/Unity/Suburb
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62827
+55011
 Successfully changed project path to: C:/Users/Benjy/Documents/Unity/Suburb
 C:/Users/Benjy/Documents/Unity/Suburb
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Benjy/Documents/Unity/Suburb
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.24 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 56.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/Resources/UnitySubsystems
@@ -63,52 +63,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008748 seconds.
+Registered in 0.007813 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.21 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 62.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.492 seconds
+- Completed reload, in  0.483 seconds
 Domain Reload Profiling:
-	ReloadAssembly (493ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (484ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (348ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (343ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (216ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
+				InitializePlatformSupportModulesInManaged (46ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003871 seconds.
-Android Extension - Scanning For ADB Devices 647 ms
+Registered in 0.003587 seconds.
+Android Extension - Scanning For ADB Devices 614 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -117,46 +117,46 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.721 seconds
 Domain Reload Profiling:
-	ReloadAssembly (750ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (571ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (556ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (265ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (259ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3255 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (113.7 KB). Loaded Objects now: 3750.
-Memory consumption went from 135.5 MB to 135.3 MB.
-Total: 2.752400 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.145200 ms MarkObjects: 2.262700 ms  DeleteObjects: 0.105700 ms)
+Unloading 3253 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (55.7 KB). Loaded Objects now: 3717.
+Memory consumption went from 114.8 MB to 114.8 MB.
+Total: 2.377600 ms (FindLiveObjects: 0.203800 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.012200 ms  DeleteObjects: 0.058500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,131 +171,88 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1048711.698211 seconds.
-  path: Assets/Prefabs/Street/Lego Street Junction.prefab
-  artifactKey: Guid(1d6863a0c84660241a728a3953551d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Lego Street Junction.prefab using Guid(1d6863a0c84660241a728a3953551d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55bc37c899654a0d6b60f98e04490d0') in 0.038742 seconds 
+  Time since last request: 17949.352306 seconds.
+  path: Assets/Plane.prefab
+  artifactKey: Guid(bbf969bd460c739489e6316e12449aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plane.prefab using Guid(bbf969bd460c739489e6316e12449aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de640d6e97e2c0d79d0eecdc05e488f') in 0.264592 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Street/Lego Street Straight.prefab
-  artifactKey: Guid(5739c664ba8cf1d439dfb589a826051c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Lego Street Straight.prefab using Guid(5739c664ba8cf1d439dfb589a826051c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8001a4018fa93541343ae0ce2f83cc80') in 0.006382 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003126 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Benjy\Documents\Unity\Suburb\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Domain Reload Profiling:
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (575ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.7 KB). Loaded Objects now: 3727.
+Memory consumption went from 117.7 MB to 117.7 MB.
+Total: 2.300500 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.000100 ms  DeleteObjects: 0.011100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 6.718182 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Corner Grass.prefab
-  artifactKey: Guid(2ebb5d0a951b4cb4ca4bf879d4905138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Corner Grass.prefab using Guid(2ebb5d0a951b4cb4ca4bf879d4905138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9796434c2d128afbc87952311a46dab3') in 0.006979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab
-  artifactKey: Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab using Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d87534e8ae095fdae345610580a226b') in 0.006398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Dead End Cement.prefab
-  artifactKey: Guid(8fd3583f7006db44e98ce0c7bd143092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Dead End Cement.prefab using Guid(8fd3583f7006db44e98ce0c7bd143092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b788c6efb801f9e02413d51064efd150') in 0.006131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.490336 seconds.
-  path: Assets/Prefabs/Street/Lego Street Junction.prefab
-  artifactKey: Guid(1d6863a0c84660241a728a3953551d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Lego Street Junction.prefab using Guid(1d6863a0c84660241a728a3953551d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c199dc0b08aa1ecbeebc5c4940f151d') in 0.006238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.480766 seconds.
-  path: Assets/Prefabs/Street/Mats/Grass.mat
-  artifactKey: Guid(67ce92fe487e41744b49ec26b8896e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Mats/Grass.mat using Guid(67ce92fe487e41744b49ec26b8896e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063511341e50c63428e0b2743aefd68c') in 0.097025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 173.173000 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Corner Grass.prefab
-  artifactKey: Guid(2ebb5d0a951b4cb4ca4bf879d4905138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Corner Grass.prefab using Guid(2ebb5d0a951b4cb4ca4bf879d4905138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d62ce29abab9c26e57c8d5387a6e8') in 0.019822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab
-  artifactKey: Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab using Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c039de25f9956311bee878d71ef73ffa') in 0.009227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Sidewalk Straight.prefab
-  artifactKey: Guid(808787f21b40c894e976539ad4be61c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Sidewalk Straight.prefab using Guid(808787f21b40c894e976539ad4be61c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6420b8b23f9647e98d2eb611c4bb9a73') in 0.009746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Dead End Cement.prefab
-  artifactKey: Guid(8fd3583f7006db44e98ce0c7bd143092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Dead End Cement.prefab using Guid(8fd3583f7006db44e98ce0c7bd143092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f847ff9f771189f47f8d07ece6a8dc3a') in 0.007464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Dead End Asphalt.prefab
-  artifactKey: Guid(7f27ec39ad0d0d94685584c85ab4461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Dead End Asphalt.prefab using Guid(7f27ec39ad0d0d94685584c85ab4461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929c28b6d215c4c5eb7d60cf2b131e77') in 0.006979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.921454 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Corner Grass.prefab
-  artifactKey: Guid(2ebb5d0a951b4cb4ca4bf879d4905138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Corner Grass.prefab using Guid(2ebb5d0a951b4cb4ca4bf879d4905138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beca6ddde3e07eb3b2813150b9fd5f01') in 0.013298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab
-  artifactKey: Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab using Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c97c0597d29ae4f2c74ea8b910481d6') in 0.008126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Straight Asphalt.prefab
-  artifactKey: Guid(17de140871a1cb8468cc0e4f45b80260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Straight Asphalt.prefab using Guid(17de140871a1cb8468cc0e4f45b80260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a1332e3e9bf9b4eaa086823303688d') in 0.008797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Street/Parts/Street xRoad Asphalt.prefab
-  artifactKey: Guid(ef3df0146b470614993ef7b90910f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street xRoad Asphalt.prefab using Guid(ef3df0146b470614993ef7b90910f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e3f280ef376ee74116ce3c5fee6f31') in 0.005838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.941694 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Corner Cement.prefab
-  artifactKey: Guid(5430454d26e91ae43885c1a5fa828f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Corner Cement.prefab using Guid(5430454d26e91ae43885c1a5fa828f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8411532f19cdc317dc24ad993978c3') in 0.009615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab
-  artifactKey: Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Junction Asphalt.prefab using Guid(676a3f3a73aa27641958d7b49a19fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da11373def116fee1e94f176bd204b57') in 0.009659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Straight Asphalt.prefab
-  artifactKey: Guid(17de140871a1cb8468cc0e4f45b80260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Straight Asphalt.prefab using Guid(17de140871a1cb8468cc0e4f45b80260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7217d9e6a15aeff5e6ec458e17d18919') in 0.009348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Street/Parts/Street xRoad Asphalt.prefab
-  artifactKey: Guid(ef3df0146b470614993ef7b90910f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street xRoad Asphalt.prefab using Guid(ef3df0146b470614993ef7b90910f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9772f4d979b0de4bd8094861dfb1d6') in 0.007243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Street/Parts/Street Dead End Grass.prefab
-  artifactKey: Guid(29b75b76bf74c504cbd27b476265741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street/Parts/Street Dead End Grass.prefab using Guid(29b75b76bf74c504cbd27b476265741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ed782d42953ef9f5352fac1ef98d84') in 0.010041 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (22.0 KB). Loaded Objects now: 3727.
+Memory consumption went from 53.3 MB to 53.3 MB.
+Total: 2.079700 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.828800 ms  DeleteObjects: 0.009000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
