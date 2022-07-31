@@ -1391,15 +1391,59 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1435864687}
     m_Modifications:
+    - target: {fileID: 5671472125786645529, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472125809921469, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_text
+      value: '- Puzzle Size controls the size of the *next* puzzle.
+
+        - Piece
+        Size controls the size of the pieces for the *next* puzzle
+
+        - Rotation
+        On controls if pieces can be rotated for the *next* puzzle
+
+        - Adjust
+        the music and sound effects volume to your taste.
+
+        - Play starts
+        a new puzzle
+
+        - Quit exits the game
+
+        - The Menu button (in
+        the top right) shows and hides all of these handy hints'
+      objectReference: {fileID: 0}
     - target: {fileID: 5671472125966829883, guid: 3748c8c61881613428de94037a87ce42, type: 3}
       propertyPath: m_text
-      value: '- Drag and drop the buildings and streets onto the grid in the middle
+      value: '- Left click to drag and drop the buildings and streets onto the grid
+        in the middle
+
+        - If rotation is on, right click to rotate pieces
 
         -
         Move the camera by holding down the right mouse button
 
         - Press Space
         to change songs'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472126415442756, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472126826139724, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472127256092618, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472127299966686, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5671472127361920724, guid: 3748c8c61881613428de94037a87ce42, type: 3}
       propertyPath: m_Pivot.x
@@ -1488,6 +1532,22 @@ PrefabInstance:
     - target: {fileID: 5671472127361920727, guid: 3748c8c61881613428de94037a87ce42, type: 3}
       propertyPath: m_Name
       value: Main Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472127361920727, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472127373161050, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472127527504857, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671472127807961131, guid: 3748c8c61881613428de94037a87ce42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3748c8c61881613428de94037a87ce42, type: 3}
