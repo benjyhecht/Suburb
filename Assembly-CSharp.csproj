@@ -64,6 +64,7 @@
     <Compile Include="Assets\SFXManager.cs" />
     <Compile Include="Assets\SongManager.cs" />
     <Compile Include="Assets\MenuShower.cs" />
+    <Compile Include="Assets\Timer.cs" />
     <Compile Include="Assets\ButtonManager.cs" />
     <Compile Include="Assets\MouseShower.cs" />
     <Compile Include="Assets\BlockPlacer.cs" />

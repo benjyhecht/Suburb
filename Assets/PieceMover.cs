@@ -20,6 +20,7 @@ public class PieceMover : MonoBehaviour
     private Vector2 maxExtents;
     private int puzzleSize;
     bool green = false;
+    Timer timer;
 
     private void Awake()
     {
@@ -28,6 +29,7 @@ public class PieceMover : MonoBehaviour
         dd = GameObject.FindGameObjectWithTag("DontDestroy").GetComponent<DontDestroy>();
         pieceProperties = GetComponent<PieceProperties>();
         sfxManager = mouseShower.GetComponent<SFXManager>();
+        timer = GameObject.FindGameObjectWithTag("Timer").GetComponent<Timer>();
     }
 
     private void Update()
@@ -39,6 +41,7 @@ public class PieceMover : MonoBehaviour
                 moving = true;
                 mouseShower.SetHoldingObject(true);
                 StartMoving();
+                timer.startTime();
             }
 
             if (Input.GetMouseButton(0) && moving)

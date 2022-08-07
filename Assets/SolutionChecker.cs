@@ -85,6 +85,8 @@ public class SolutionChecker : MonoBehaviour
             button.GetComponent<MenuShower>().ButtonShowMenu();
             GetComponent<SFXManager>().PlaySound(Enums.SFX.WIN);
             Camera.main.GetComponent<CameraController>().EndGame();
+            Timer timer = GameObject.FindGameObjectWithTag("Timer").GetComponent<Timer>();
+            timer.endTime();
         }
     }
 

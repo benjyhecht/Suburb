@@ -7,14 +7,15 @@ public class MenuShower : MonoBehaviour
     SolutionChecker sc;
     GameObject menu;
     bool menuShowing = false;
+    Timer timer;
 
     private void Awake()
     {
         sc = GameObject.FindGameObjectWithTag("GameController").GetComponent<SolutionChecker>();
+        timer = GameObject.FindGameObjectWithTag("Timer").GetComponent<Timer>();
         menu = transform.parent.GetChild(0).gameObject;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape))
@@ -28,6 +29,7 @@ public class MenuShower : MonoBehaviour
         menuShowing = !menuShowing;
         ShowMenu(menuShowing);
         sc.SetPaused(menuShowing);
+        timer.pauseTime(!menuShowing);
     }
 
     public void ShowMenu(bool show)
